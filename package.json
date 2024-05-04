@@ -45,7 +45,7 @@
     "prettier": "^3.2.5"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.{js,css,md}": "prettier --write"
+    "*.js": "pnpm next lint --cache --fix",
+    "*.{js,css,md}": "pnpm format"
   }
 }
