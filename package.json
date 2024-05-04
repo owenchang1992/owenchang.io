@@ -6,7 +6,6 @@
     "build": "pnpm run setup && next build",
     "build-only": "next build",
     "start": "next start",
-    "setup": "node ./setup.mjs",
     "lint": "next lint",
     "format": "pnpm exec prettier . --write",
     "prepare": "husky install"
