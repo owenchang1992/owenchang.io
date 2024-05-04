@@ -61,7 +61,7 @@ export const getLeeYouTubeSubs = cache(
   ['leerob-youtube-subs'],
   {
     revalidate: 3600,
-  }
+  },
 );
 
 export const getVercelYouTubeSubs = cache(
@@ -77,7 +77,7 @@ export const getVercelYouTubeSubs = cache(
   ['vercel-youtube-subs'],
   {
     revalidate: 3600,
-  }
+  },
 );
 
 export async function getGuestbookEntries() {

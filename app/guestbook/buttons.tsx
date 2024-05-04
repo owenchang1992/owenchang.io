@@ -1,7 +1,7 @@
 'use client';
 
 import { signIn, signOut } from 'next-auth/react';
-import Image from 'next/image'
+import Image from 'next/image';
 
 export function SignOut() {
   return (
